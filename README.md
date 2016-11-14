@@ -1,11 +1,15 @@
-# jwtbf.py - simple script to brute force JWT token signature using a wordlist
-# For JWT info, refer to https://jwt.io/introduction/
-# This script requires PyJWT Package 
-# Refer to this link for proper documentation/installation https://pypi.python.org/pypi/PyJWT
-# For usage, supplies when asked JWT token then the target wordlist
-# For any issue, this is my email: ismaelrocha.projetos@gmail.com
+#jwtbf.py - simple script to brute force JWT token signature using a wordlist
 
-Usage:
+  For JWT info, refer to https://jwt.io/introduction/
+
+#Requirements
+  This script requires PyJWT Package 
+  Refer to this link for proper documentation/installation https://pypi.python.org/pypi/PyJWT
+
+#Usage
+
+For usage, supplies when asked JWT token then the target wordlist
+
 user@host:~/jwtbf# python jwtbf.py
 Enter JWT token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
 Enter wordlist name:wordlist.txt
