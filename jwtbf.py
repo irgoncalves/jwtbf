@@ -3,6 +3,7 @@
 # This script requires PyJWT Package https://pypi.python.org/pypi/PyJWT
 # For usage, supplies when asked JWT token then the target wordlist
 # ismaelrocha.projetos@gmail.com
+# https://sharingsec.blogspot.com
 
 import jwt;
 
