@@ -1,1 +1,1 @@
-<?php echo "alemao"?>
+<html><? echo "alemao"?>test</html>
